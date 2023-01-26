@@ -1,0 +1,65 @@
+
+Bootstrap framework
+
+Bootstrap es un framework para la creacion de 
+paginas web, con el fin de servir como plantilla para
+la creacion de paginas web con diseño responsive
+
+Boostrap se sostiene de 3 pilares
+
+Grid (cuadricula)
+contenedores, filas y columnas que definen la presentacion
+y alineacion del contenido de la pagina
+
+    *Dato: cada fila en bootstrap contiene 12 columnas
+           un contenedor puede tener filas
+
+
+clases de Grid
+.row     (fila)
+    elemento html considerado como fila para bootstrap
+    <div class = "row"></div>
+.col-    (columna)
+.col-xs- (extra small)  [<576px]
+.col-sm- (small)        [>=576px]
+.col-md- (medium)       [>=768px]
+.col-lg- (large)        [>=992px]
+.col-xl- (extra large)  [>=1200px]
+.col-xxl- (extra extra large) [>=1400px]
+
+<div class = "container">
+    <div class = "row">
+        <div class = "col"></div>
+        <div class = "col"></div>
+        <!-- ... -->
+    </div>
+</div>
+
+breakpoints
+dimensiones de ancho donde habria un cambio en la pagina
+para adaptarse a la pantalla del dispositivo
+
+*Nota: los breakpoints se encuentran arriba en los datos de columna
+los breakpoints son predeterminados por bootstrap
+
+los breakpoints se usan en clases como
+.col-
+
+contenedores
+elemento html que contiene la estructura de filas y columnas
+hay 2 clases especificas
+.container (contenedor fijo)
+    posee ancho maximo FIJO dependiendo del dispositivo
+.container-fluid (contenedor fluido)
+    posee ancho maximo VARIABLE dependiendo del dispositivo
+    su variabilidad es que cubre el 100% del ancho de la pantalla
+
+
+
+Componentes de Bootstrap
+elementos html reutilizables, con estilo predeterminado
+usables en la creacion de la pagina web
+***pueden personalizarse con css
+
+documentacion oficial de bootstrap
+https://getbootstrap.com/docs/
