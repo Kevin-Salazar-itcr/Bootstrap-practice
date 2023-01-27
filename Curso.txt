@@ -63,3 +63,76 @@ usables en la creacion de la pagina web
 
 documentacion oficial de bootstrap
 https://getbootstrap.com/docs/
+
+Iconos en bootstrap
+iconos predeterminados de Bootstrap
+se encuentran en formato no distorsionable (svg)
+https://icons.getbootstrap.com/
+
+forma de importar objetos en html
+cdn = content delivery network
+link en html para importar archivos de la red y no tenerlos como archivos locales 
+
+los iconos se pueden personalizar con css
+
+Flexbox
+css flexible box layout
+distribucion flexible del modelo de cajas en la presentacion de elementos de html
+permite la distribucion de los elementos en un contenedor
+
+bootstrap incluye clases predeterminadas para trabajar con flexbox
+.d-flex sigue las caracteristicas de flexbox
+
+propiedades de flexbox
+
+flex-direction
+establece el eje principal del contenedor (donde se colocan los elementos dentro)
+    hay 2 ejes: row (horizontal) y column (vertical)
+    poseen 4 valores: row, row-reverse, column, column-reverse
+
+    aparecen consigo la propiedad justify-content
+    define la distribucion en el eje principal (este eje cambia si es fila o columna)
+    valores posibles:
+    flex-start
+    flex-end
+    center (muy usado)
+    space-between
+    space-around
+    space-evenly
+
+    bootstrap tiene sus predeterminaciones con clases
+    .justify-content-start
+    .justify-content-end
+    .justify-content-center
+    .justify-content-between
+    .justify-content-around
+    .justify-content-evenly
+
+align-items
+define la distribucion de los elementos en el eje secundario
+posee valores como
+flex-start
+flex-end
+center
+baseline
+stretch
+
+equivalencias en bootstrap
+.align-items-start
+.align-items-end
+.align-items-center
+.align-items-baseline
+.align-items-stretch
+
+flex wrap
+determina lo ajustado de los elementos en el contenedor
+depende el valor, se distribuyen los elementos en una o mas lineas
+valores:
+nowrap (no ajusta, por defecto)
+wrap (ajusta)
+wrap-reverse (ajusta en orden inverso)
+
+equivalencias en bootstrap
+.flex-nowrap
+.flex-wrap
+.flex-wrap-reverse
